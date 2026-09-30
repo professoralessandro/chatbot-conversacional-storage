@@ -1,0 +1,15 @@
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\bin\Debug\net8.0\AppMktPlaceV2.Storage.Domain.deps.json
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\bin\Debug\net8.0\AppMktPlaceV2.Storage.Domain.dll
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\bin\Debug\net8.0\AppMktPlaceV2.Storage.Domain.pdb
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\bin\Debug\net8.0\AppMktPlaceV2.Storage.Application.dll
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\bin\Debug\net8.0\AppMktPlaceV2.Storage.Application.pdb
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\obj\Debug\net8.0\AppMktPlaceV2.Storage.Domain.csproj.AssemblyReference.cache
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\obj\Debug\net8.0\AppMktPlaceV2.Storage.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\obj\Debug\net8.0\AppMktPlaceV2.Storage.Domain.AssemblyInfoInputs.cache
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\obj\Debug\net8.0\AppMktPlaceV2.Storage.Domain.AssemblyInfo.cs
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\obj\Debug\net8.0\AppMktPlaceV2.Storage.Domain.csproj.CoreCompileInputs.cache
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\obj\Debug\net8.0\AppMktPl.B2B1CFEB.Up2Date
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\obj\Debug\net8.0\AppMktPlaceV2.Storage.Domain.dll
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\obj\Debug\net8.0\refint\AppMktPlaceV2.Storage.Domain.dll
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\obj\Debug\net8.0\AppMktPlaceV2.Storage.Domain.pdb
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Domain\obj\Debug\net8.0\ref\AppMktPlaceV2.Storage.Domain.dll

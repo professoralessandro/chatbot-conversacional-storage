@@ -1,0 +1,17 @@
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\bin\Debug\net8.0\AppMktPlaceV2.Storage.Infrastructure.deps.json
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\bin\Debug\net8.0\AppMktPlaceV2.Storage.Infrastructure.dll
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\bin\Debug\net8.0\AppMktPlaceV2.Storage.Infrastructure.pdb
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\bin\Debug\net8.0\AppMktPlaceV2.Storage.Application.dll
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\bin\Debug\net8.0\AppMktPlaceV2.Storage.Domain.dll
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\bin\Debug\net8.0\AppMktPlaceV2.Storage.Domain.pdb
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\bin\Debug\net8.0\AppMktPlaceV2.Storage.Application.pdb
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\obj\Debug\net8.0\AppMktPlaceV2.Storage.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\obj\Debug\net8.0\AppMktPlaceV2.Storage.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\obj\Debug\net8.0\AppMktPlaceV2.Storage.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\obj\Debug\net8.0\AppMktPlaceV2.Storage.Infrastructure.AssemblyInfo.cs
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\obj\Debug\net8.0\AppMktPlaceV2.Storage.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\obj\Debug\net8.0\AppMktPl.3B188592.Up2Date
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\obj\Debug\net8.0\AppMktPlaceV2.Storage.Infrastructure.dll
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\obj\Debug\net8.0\refint\AppMktPlaceV2.Storage.Infrastructure.dll
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\obj\Debug\net8.0\AppMktPlaceV2.Storage.Infrastructure.pdb
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Infrastructure\obj\Debug\net8.0\ref\AppMktPlaceV2.Storage.Infrastructure.dll

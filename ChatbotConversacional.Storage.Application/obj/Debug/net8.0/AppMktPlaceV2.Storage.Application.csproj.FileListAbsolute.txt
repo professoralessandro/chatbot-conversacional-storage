@@ -1,0 +1,13 @@
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Application\bin\Debug\net8.0\AppMktPlaceV2.Storage.Application.deps.json
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Application\bin\Debug\net8.0\AppMktPlaceV2.Storage.Application.dll
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Application\bin\Debug\net8.0\AppMktPlaceV2.Storage.Application.pdb
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Application\obj\Debug\net8.0\AppMktPlaceV2.Storage.Application.csproj.AssemblyReference.cache
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Application\obj\Debug\net8.0\AppMktPlaceV2.Storage.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Application\obj\Debug\net8.0\AppMktPlaceV2.Storage.Application.AssemblyInfoInputs.cache
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Application\obj\Debug\net8.0\AppMktPlaceV2.Storage.Application.AssemblyInfo.cs
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Application\obj\Debug\net8.0\AppMktPlaceV2.Storage.Application.csproj.CoreCompileInputs.cache
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Application\obj\Debug\net8.0\AppMktPlaceV2.Storage.Application.dll
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Application\obj\Debug\net8.0\refint\AppMktPlaceV2.Storage.Application.dll
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Application\obj\Debug\net8.0\AppMktPlaceV2.Storage.Application.pdb
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Application\obj\Debug\net8.0\ref\AppMktPlaceV2.Storage.Application.dll
+C:\Users\profe\source\repos\private\chat-bot\AppMktPlaceV2.Storage\AppMktPlaceV2.Storage.Application\obj\Debug\net8.0\AppMktPl.88A1E2DD.Up2Date

@@ -1,0 +1,70 @@
+# Created by https:\\www.toptal.com\developers\gitignore\api\dotnetcore
+# Edit at https:\\www.toptal.com\developers\gitignore?templates=dotnetcore
+
+### DotnetCore APPLICATION ###
+# .NET Core build folders
+
+## # TEST
+## 
+/ChatbotConversacionalStorage.Test/bin/*
+/ChatbotConversacionalStorage.Test/obj/*
+/ChatbotConversacionalStorage.Test/bin
+/ChatbotConversacionalStorage.Test/obj
+
+## 
+## # DOMAIN
+## 
+/ChatbotConversacionalStorage.Domain/bin/*
+/ChatbotConversacionalStorage.Domain/obj/*
+/ChatbotConversacionalStorage.Domain/bin
+/ChatbotConversacionalStorage.Domain/obj
+
+## 
+## # INFRAESTRUTURE
+##
+/ChatbotConversacionalStorage.Infrastructure/obj
+/ChatbotConversacionalStorage.Infrastructure/obj/*
+/ChatbotConversacionalStorage.Infrastructure/obj/Debug
+/ChatbotConversacionalStorage.Infrastructure/obj/Debug/*
+/ChatbotConversacionalStorage.Infrastructure/bin
+/ChatbotConversacionalStorage.Infrastructure/bin/*
+/ChatbotConversacionalStorage.Infrastructure/bin/Debug
+/ChatbotConversacionalStorage.Infrastructure/bin/Debug/*
+
+## 
+## # API
+/ChatbotConversacionalStorage.Api/bin/*
+/ChatbotConversacionalStorage.Api/obj/*
+/ChatbotConversacionalStorage.Api/bin
+/ChatbotConversacionalStorage.Api/obj
+/ChatbotConversacionalStorage.Api/obj/Debug/*
+/ChatbotConversacionalStorage.Api/obj/Debug
+/ChatbotConversacionalStorage.Api/SerilogStorage/*
+/ChatbotConversacionalStorage.Api/SerilogStorage
+/ChatbotConversacionalStorage.Api/Users/*
+/ChatbotConversacionalStorage.Api/Users
+
+## 
+## # APPLICATION
+/ChatbotConversacionalStorage.Application/bin/*
+/ChatbotConversacionalStorage.Application/obj/*
+/ChatbotConversacionalStorage.Application/bin
+/ChatbotConversacionalStorage.Application/obj
+
+# Common publish files
+/publish/*
+/setup.sql
+/.dockerignore
+/docker-compose.yml
+/deployment.yml
+/ChatbotConversacionalStorage/Dockerfile
+/entrypoint.sh
+
+# End of https:\www.toptal.com/developers/gitignore/api/dotnetcore
+
+### DotnetCore ROOT ###
+
+/.vscode/*
+/.vs/*
+/.vscode
+/.vs
