@@ -171,5 +171,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatbotConversacionalStorage.Api.Controllers.StorageFileController",
+    "Method": "GetPublicImage",
+    "RelativePath": "api/StorageFile/public/{fileId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -240,12 +240,12 @@ try
     #region API USE CONFIGURATION
     app.UseSerilogRequestLogging();
 
-    app.UseAuthentication();
-    app.UseAuthorization();
     #region CONFIGURARION CORS
     // app.UseCors(b => b.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
     app.UseCors(RumtimeSettings.ApiPolicy);
     #endregion
+    app.UseAuthentication();
+    app.UseAuthorization();
     #endregion API USE CONFIGURATION
 
     app.MapControllers();

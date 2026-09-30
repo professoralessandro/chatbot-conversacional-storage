@@ -66,6 +66,29 @@
         }
       }
     },
+    "/api/StorageFile/public/{fileId}": {
+      "get": {
+        "tags": [
+          "StorageFile"
+        ],
+        "parameters": [
+          {
+            "name": "fileId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/StorageFile/GetAll": {
       "get": {
         "tags": [
@@ -405,10 +428,10 @@
     },
     "securitySchemes": {
       "Bearer": {
-        "type": "apiKey",
-        "description": "Enter 'Bearer [space] and then your token in text input below' ",
-        "name": "Authorization",
-        "in": "header"
+        "type": "http",
+        "description": "Enter your JWT access token",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
       }
     }
   },

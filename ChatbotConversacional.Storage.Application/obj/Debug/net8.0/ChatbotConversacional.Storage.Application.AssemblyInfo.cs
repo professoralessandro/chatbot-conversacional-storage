@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatbotConversacional.Storage.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a98a7a60f0ad831370457faf4c9cd109370ef7d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e50ee00e2e959c1d81a83239aa82e20c967f19fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatbotConversacional.Storage.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatbotConversacional.Storage.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

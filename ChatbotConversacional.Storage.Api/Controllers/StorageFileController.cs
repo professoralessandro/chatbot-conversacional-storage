@@ -56,6 +56,31 @@ namespace ChatbotConversacionalStorage.Api.Controllers
         }
         #endregion
 
+        [HttpGet("public/{fileId:guid}"), AllowAnonymous]
+        public async Task<IActionResult> GetPublicImage(Guid fileId)
+        {
+            try
+            {
+                var file = await _service.GetByIdAsync(fileId, isDownlodFile: true);
+                if (!file.Public || file.File is not { Length: > 0 }) return NotFound();
+
+                var contentType = Path.GetExtension(file.FilePath).ToLowerInvariant() switch
+                {
+                    ".jpg" or ".jpeg" => "image/jpeg",
+                    ".png" => "image/png",
+                    ".webp" => "image/webp",
+                    _ => "application/octet-stream"
+                };
+
+                Response.Headers.CacheControl = "public, max-age=86400, immutable";
+                return File(file.File, contentType);
+            }
+            catch
+            {
+                return NotFound();
+            }
+        }
+
         #region GET ALL
         [HttpGet, Route("GetAll"), OutputCache]
         public async Task<ActionResult<List<FileResponseDto>>> GetAllAsync(
@@ -144,7 +169,7 @@ namespace ChatbotConversacionalStorage.Api.Controllers
         #endregion POST IMAGE
 
         #region POST PROFILE IMAGE
-        [HttpPost, Route("post-profile-image"), AllowAnonymous, RequestSizeLimit(5 * 1024 * 1024)]
+        [HttpPost, Route("post-profile-image"), RequestSizeLimit(5 * 1024 * 1024)]
         public async Task<IActionResult> SubmitProfilePost([FromBody] ProfileFileRequestPostDto postRequest)
         {
             try

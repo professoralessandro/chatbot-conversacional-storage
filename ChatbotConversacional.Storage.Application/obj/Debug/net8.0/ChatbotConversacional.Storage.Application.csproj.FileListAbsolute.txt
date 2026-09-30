@@ -19,8 +19,12 @@ C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\Chat
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Application\obj\Debug\net8.0\ChatbotConversacional.Storage.Application.AssemblyInfoInputs.cache
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Application\obj\Debug\net8.0\ChatbotConversacional.Storage.Application.AssemblyInfo.cs
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Application\obj\Debug\net8.0\ChatbotConversacional.Storage.Application.csproj.CoreCompileInputs.cache
+C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Application\obj\Debug\net8.0\ChatbotConversacional.Storage.Application.sourcelink.json
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Application\obj\Debug\net8.0\ChatbotConversacional.Storage.Application.dll
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Application\obj\Debug\net8.0\refint\ChatbotConversacional.Storage.Application.dll
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Application\obj\Debug\net8.0\ChatbotConversacional.Storage.Application.pdb
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Application\obj\Debug\net8.0\ref\ChatbotConversacional.Storage.Application.dll
-C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Application\obj\Debug\net8.0\ChatbotConversacional.Storage.Application.sourcelink.json
+C:\Users\profe\AppData\Local\Temp\StorageImagesValidation\Application\ChatbotConversacional.Storage.Application.deps.json
+C:\Users\profe\AppData\Local\Temp\StorageImagesValidation\Application\ChatbotConversacional.Storage.Application.dll
+C:\Users\profe\AppData\Local\Temp\StorageImagesValidation\Application\ChatbotConversacional.Storage.Application.pdb
+C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Application\obj\Debug\net8.0\ChatbotC.9AF3EA2B.Up2Date
