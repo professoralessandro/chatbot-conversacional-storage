@@ -1,7 +1,8 @@
 ﻿#region IMPORT
-using ChatbotConversacionalStorage.Application.Dtos.File.Request;
-using ChatbotConversacionalStorage.Domain.Entities;
 using AutoMapper;
+using ChatbotConversacionalStorage.Application.Dtos.File.Request;
+using ChatbotConversacionalStorage.Application.Dtos.Log;
+using ChatbotConversacionalStorage.Domain.Entities;
 #endregion
 
 namespace ChatbotConversacionalStorage.Infrastructure.Mappers
@@ -33,6 +34,14 @@ namespace ChatbotConversacionalStorage.Infrastructure.Mappers
             CreateMap<FileResponseDto, StorageFile>()
             .ReverseMap();
             #endregion FILE
+
+            #region LOG
+            CreateMap<LogDto, Log>()
+            .ReverseMap();
+
+            CreateMap<LogDto, Log>()
+            .ReverseMap();
+            #endregion LOG
         }
     }
 }

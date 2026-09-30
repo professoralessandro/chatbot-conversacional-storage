@@ -205,7 +205,6 @@ C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\Chat
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\ChatbotC.DA61087F.Up2Date
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\ChatbotConversacional.Storage.Api.dll
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\refint\ChatbotConversacional.Storage.Api.dll

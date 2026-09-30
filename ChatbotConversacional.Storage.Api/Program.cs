@@ -87,11 +87,12 @@ try
         options.AddSecurityDefinition("Bearer",
            new OpenApiSecurityScheme
            {
-               Description = "Enter 'Bearer [space] and then your token in text input below' ",
+               Description = "Enter your JWT access token",
                Name = "Authorization",
                In = ParameterLocation.Header,
-               Type = SecuritySchemeType.ApiKey,
-               Scheme = "Bearer"
+               Type = SecuritySchemeType.Http,
+               Scheme = JwtBearerDefaults.AuthenticationScheme,
+               BearerFormat = "JWT"
            }
        );
 
@@ -143,14 +144,14 @@ try
 
     #region JWT CONFIGURATION
 
-    var jwtKey = builder.Configuration["JwtConfig:Key"];
-    var jwtIssuer = builder.Configuration["JwtConfig:Issuer"];
-    var jwtAudience = builder.Configuration["JwtConfig:Audience"];
+    var jwtKey = builder.Configuration["Jwt:Key"]
+        ?? builder.Configuration["JwtConfig:Key"]
+        ?? builder.Configuration["JwtConfig:Secret"];
+    var jwtIssuer = builder.Configuration["Jwt:Issuer"] ?? builder.Configuration["JwtConfig:Issuer"];
+    var jwtAudience = builder.Configuration["Jwt:Audience"] ?? builder.Configuration["JwtConfig:Audience"];
 
     if (builder.Environment.IsDevelopment())
     {
-        if (string.IsNullOrWhiteSpace(jwtKey) || Encoding.UTF8.GetByteCount(jwtKey) < 32)
-            jwtKey = Convert.ToBase64String(RandomNumberGenerator.GetBytes(64));
         jwtIssuer ??= "ChatbotConversacional.Api";
         jwtAudience ??= "ChatbotConversacional.Frontend";
     }
@@ -169,6 +170,9 @@ try
     builder.Configuration["JwtConfig:Key"] = jwtKey;
     builder.Configuration["JwtConfig:Issuer"] = jwtIssuer;
     builder.Configuration["JwtConfig:Audience"] = jwtAudience;
+    builder.Configuration["Jwt:Key"] = jwtKey;
+    builder.Configuration["Jwt:Issuer"] = jwtIssuer;
+    builder.Configuration["Jwt:Audience"] = jwtAudience;
 
     var key = Encoding.UTF8.GetBytes(jwtKey);
 
@@ -194,6 +198,7 @@ try
             ValidateAudience = true,
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
+            ValidAlgorithms = new[] { SecurityAlgorithms.HmacSha256 },
 
             ValidIssuer = jwtIssuer,
 

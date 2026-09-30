@@ -28,3 +28,4 @@ C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\Chat
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Domain\obj\Debug\net8.0\refint\ChatbotConversacional.Storage.Domain.dll
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Domain\obj\Debug\net8.0\ChatbotConversacional.Storage.Domain.pdb
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Domain\obj\Debug\net8.0\ref\ChatbotConversacional.Storage.Domain.dll
+C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Domain\obj\Debug\net8.0\ChatbotConversacional.Storage.Domain.sourcelink.json

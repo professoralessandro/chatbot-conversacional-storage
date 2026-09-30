@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatbotConversacional.Storage.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5063770fb2e71186d4218e0eedb11381952d0f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a98a7a60f0ad831370457faf4c9cd109370ef7d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatbotConversacional.Storage.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatbotConversacional.Storage.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

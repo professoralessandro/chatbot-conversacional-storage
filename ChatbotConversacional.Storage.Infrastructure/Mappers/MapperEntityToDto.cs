@@ -1,7 +1,8 @@
 ﻿#region IMPORTS
-using ChatbotConversacionalStorage.Application.Dtos.File.Request;
-using ChatbotConversacionalStorage.Domain.Entities;
 using AutoMapper;
+using ChatbotConversacionalStorage.Application.Dtos.File.Request;
+using ChatbotConversacionalStorage.Application.Dtos.Log;
+using ChatbotConversacionalStorage.Domain.Entities;
 #endregion
 
 namespace ChatbotConversacionalStorage.Infrastructure.Mappers
@@ -28,6 +29,12 @@ namespace ChatbotConversacionalStorage.Infrastructure.Mappers
 
             CreateMap<StorageFile, FileResponseDto>();
             #endregion FILE
+
+            #region LOG
+            CreateMap<Log, LogDto>();
+
+            CreateMap<Log, LogDto>();
+            #endregion LOG
         }
     }
 }
