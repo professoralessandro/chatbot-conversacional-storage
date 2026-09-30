@@ -57,7 +57,7 @@ namespace ChatbotConversacionalStorage.Api.Controllers
         #endregion
 
         #region GET ALL
-        [HttpGet, Route("GetAll"), AllowAnonymous, OutputCache]
+        [HttpGet, Route("GetAll"), OutputCache]
         public async Task<ActionResult<List<FileResponseDto>>> GetAllAsync(
             [FromQuery] Guid? fileId,
             [FromQuery] string? title,
