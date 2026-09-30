@@ -1,70 +1,18 @@
-# Created by https:\\www.toptal.com\developers\gitignore\api\dotnetcore
-# Edit at https:\\www.toptal.com\developers\gitignore?templates=dotnetcore
+# .NET build and test output
+**/bin/
+**/obj/
+**/TestResults/
+**/publish/
 
-### DotnetCore APPLICATION ###
-# .NET Core build folders
+# Visual Studio workspace state
+.vs/
+.vscode/
+*.suo
+*.user
 
-## # TEST
-## 
-/ChatbotConversacional.Storage.Test/bin/*
-/ChatbotConversacional.Storage.Test/obj/*
-/ChatbotConversacional.Storage.Test/bin
-/ChatbotConversacional.Storage.Test/obj
-
-## 
-## # DOMAIN
-## 
-/ChatbotConversacional.Storage.Domain/bin/*
-/ChatbotConversacional.Storage.Domain/obj/*
-/ChatbotConversacional.Storage.Domain/bin
-/ChatbotConversacional.Storage.Domain/obj
-
-## 
-## # INFRAESTRUTURE
-##
-/ChatbotConversacional.Storage.Infrastructure/obj
-/ChatbotConversacional.Storage.Infrastructure/obj/*
-/ChatbotConversacional.Storage.Infrastructure/obj/Debug
-/ChatbotConversacional.Storage.Infrastructure/obj/Debug/*
-/ChatbotConversacional.Storage.Infrastructure/bin
-/ChatbotConversacional.Storage.Infrastructure/bin/*
-/ChatbotConversacional.Storage.Infrastructure/bin/Debug
-/ChatbotConversacional.Storage.Infrastructure/bin/Debug/*
-
-## 
-## # API
-/ChatbotConversacional.Storage.Api/bin/*
-/ChatbotConversacional.Storage.Api/obj/*
-/ChatbotConversacional.Storage.Api/bin
-/ChatbotConversacional.Storage.Api/obj
-/ChatbotConversacional.Storage.Api/obj/Debug/*
-/ChatbotConversacional.Storage.Api/obj/Debug
-/ChatbotConversacional.Storage.Api/SerilogStorage/*
-/ChatbotConversacional.Storage.Api/SerilogStorage
-/ChatbotConversacional.Storage.Api/Users/*
-/ChatbotConversacional.Storage.Api/Users
-
-## 
-## # APPLICATION
-/ChatbotConversacional.Storage.Application/bin/*
-/ChatbotConversacional.Storage.Application/obj/*
-/ChatbotConversacional.Storage.Application/bin
-/ChatbotConversacional.Storage.Application/obj
-
-# Common publish files
-/publish/*
-/setup.sql
-/.dockerignore
-/docker-compose.yml
-/deployment.yml
-/ChatbotConversacional.Storage/Dockerfile
-/entrypoint.sh
-
-# End of https:\www.toptal.com/developers/gitignore/api/dotnetcore
-
-### DotnetCore ROOT ###
-
-/.vscode/*
-/.vs/*
-/.vscode
-/.vs
+# Runtime logs and uploaded files
+**/SerilogStorage/
+**/Logs/
+*.log
+**/Users/
+**/users/
