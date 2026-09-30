@@ -29,6 +29,7 @@ try
     RumtimeSettings.ApiName = config.GetValue<string>("ApiConfiguration:ApiName");
     RumtimeSettings.ApiVersion = config.GetValue<string>("ApiConfiguration:Version");
     RumtimeSettings.ApiEnvironment = env.EnvironmentName;
+    RumtimeSettings.BaseDirectoryWorkPath = config.GetValue<string>("ApiConfiguration:BaseDirectoryWorkPath");
 
     #region HTTP RUMTIME SETTINGS
     // Configure MailSettings
