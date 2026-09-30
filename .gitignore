@@ -6,50 +6,50 @@
 
 ## # TEST
 ## 
-/ChatbotConversacionalStorage.Test/bin/*
-/ChatbotConversacionalStorage.Test/obj/*
-/ChatbotConversacionalStorage.Test/bin
-/ChatbotConversacionalStorage.Test/obj
+/ChatbotConversacional.Storage.Test/bin/*
+/ChatbotConversacional.Storage.Test/obj/*
+/ChatbotConversacional.Storage.Test/bin
+/ChatbotConversacional.Storage.Test/obj
 
 ## 
 ## # DOMAIN
 ## 
-/ChatbotConversacionalStorage.Domain/bin/*
-/ChatbotConversacionalStorage.Domain/obj/*
-/ChatbotConversacionalStorage.Domain/bin
-/ChatbotConversacionalStorage.Domain/obj
+/ChatbotConversacional.Storage.Domain/bin/*
+/ChatbotConversacional.Storage.Domain/obj/*
+/ChatbotConversacional.Storage.Domain/bin
+/ChatbotConversacional.Storage.Domain/obj
 
 ## 
 ## # INFRAESTRUTURE
 ##
-/ChatbotConversacionalStorage.Infrastructure/obj
-/ChatbotConversacionalStorage.Infrastructure/obj/*
-/ChatbotConversacionalStorage.Infrastructure/obj/Debug
-/ChatbotConversacionalStorage.Infrastructure/obj/Debug/*
-/ChatbotConversacionalStorage.Infrastructure/bin
-/ChatbotConversacionalStorage.Infrastructure/bin/*
-/ChatbotConversacionalStorage.Infrastructure/bin/Debug
-/ChatbotConversacionalStorage.Infrastructure/bin/Debug/*
+/ChatbotConversacional.Storage.Infrastructure/obj
+/ChatbotConversacional.Storage.Infrastructure/obj/*
+/ChatbotConversacional.Storage.Infrastructure/obj/Debug
+/ChatbotConversacional.Storage.Infrastructure/obj/Debug/*
+/ChatbotConversacional.Storage.Infrastructure/bin
+/ChatbotConversacional.Storage.Infrastructure/bin/*
+/ChatbotConversacional.Storage.Infrastructure/bin/Debug
+/ChatbotConversacional.Storage.Infrastructure/bin/Debug/*
 
 ## 
 ## # API
-/ChatbotConversacionalStorage.Api/bin/*
-/ChatbotConversacionalStorage.Api/obj/*
-/ChatbotConversacionalStorage.Api/bin
-/ChatbotConversacionalStorage.Api/obj
-/ChatbotConversacionalStorage.Api/obj/Debug/*
-/ChatbotConversacionalStorage.Api/obj/Debug
-/ChatbotConversacionalStorage.Api/SerilogStorage/*
-/ChatbotConversacionalStorage.Api/SerilogStorage
-/ChatbotConversacionalStorage.Api/Users/*
-/ChatbotConversacionalStorage.Api/Users
+/ChatbotConversacional.Storage.Api/bin/*
+/ChatbotConversacional.Storage.Api/obj/*
+/ChatbotConversacional.Storage.Api/bin
+/ChatbotConversacional.Storage.Api/obj
+/ChatbotConversacional.Storage.Api/obj/Debug/*
+/ChatbotConversacional.Storage.Api/obj/Debug
+/ChatbotConversacional.Storage.Api/SerilogStorage/*
+/ChatbotConversacional.Storage.Api/SerilogStorage
+/ChatbotConversacional.Storage.Api/Users/*
+/ChatbotConversacional.Storage.Api/Users
 
 ## 
 ## # APPLICATION
-/ChatbotConversacionalStorage.Application/bin/*
-/ChatbotConversacionalStorage.Application/obj/*
-/ChatbotConversacionalStorage.Application/bin
-/ChatbotConversacionalStorage.Application/obj
+/ChatbotConversacional.Storage.Application/bin/*
+/ChatbotConversacional.Storage.Application/obj/*
+/ChatbotConversacional.Storage.Application/bin
+/ChatbotConversacional.Storage.Application/obj
 
 # Common publish files
 /publish/*
@@ -57,7 +57,7 @@
 /.dockerignore
 /docker-compose.yml
 /deployment.yml
-/ChatbotConversacionalStorage/Dockerfile
+/ChatbotConversacional.Storage/Dockerfile
 /entrypoint.sh
 
 # End of https:\www.toptal.com/developers/gitignore/api/dotnetcore

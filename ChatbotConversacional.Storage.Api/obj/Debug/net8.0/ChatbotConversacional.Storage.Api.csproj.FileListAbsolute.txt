@@ -184,12 +184,10 @@ C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\Chat
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\bin\Debug\net8.0\ChatbotConversacional.Infrastructure.dll
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\bin\Debug\net8.0\ChatbotConversacional.Storage.Application.dll
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\bin\Debug\net8.0\ChatbotConversacional.Storage.Domain.dll
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\bin\Debug\net8.0\ChatbotConversacional.Storage.Application.pdb
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\bin\Debug\net8.0\ChatbotConversacional.Storage.Domain.pdb
-C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\bin\Debug\net8.0\ChatbotConversacional.Infrastructure.pdb
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\ChatbotConversacional.Storage.Api.csproj.AssemblyReference.cache
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\rpswa.dswa.cache.json
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\ChatbotConversacional.Storage.Api.GeneratedMSBuildEditorConfig.editorconfig
@@ -214,3 +212,6 @@ C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\Chat
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\ChatbotConversacional.Storage.Api.pdb
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\ChatbotConversacional.Storage.Api.genruntimeconfig.cache
 C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\ref\ChatbotConversacional.Storage.Api.dll
+C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\obj\Debug\net8.0\ChatbotConversacional.Storage.Api.sourcelink.json
+C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\bin\Debug\net8.0\ChatbotConversacional.Storage.Infrastructure.dll
+C:\Users\profe\source\repos\private\chat-bot\chatbot-conversacional-storage\ChatbotConversacional.Storage.Api\bin\Debug\net8.0\ChatbotConversacional.Storage.Infrastructure.pdb

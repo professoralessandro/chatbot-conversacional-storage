@@ -4497,9 +4497,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\profe\\source\\repos\\private\\chat-bot\\chatbot-conversacional-storage\\ChatbotConversacional.Storage.Infrastructure\\ChatbotConversacional.Infrastructure.csproj",
-      "projectName": "ChatbotConversacional.Infrastructure",
-      "projectPath": "C:\\Users\\profe\\source\\repos\\private\\chat-bot\\chatbot-conversacional-storage\\ChatbotConversacional.Storage.Infrastructure\\ChatbotConversacional.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\profe\\source\\repos\\private\\chat-bot\\chatbot-conversacional-storage\\ChatbotConversacional.Storage.Infrastructure\\ChatbotConversacional.Storage.Infrastructure.csproj",
+      "projectName": "ChatbotConversacional.Storage.Infrastructure",
+      "projectPath": "C:\\Users\\profe\\source\\repos\\private\\chat-bot\\chatbot-conversacional-storage\\ChatbotConversacional.Storage.Infrastructure\\ChatbotConversacional.Storage.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\profe\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\profe\\source\\repos\\private\\chat-bot\\chatbot-conversacional-storage\\ChatbotConversacional.Storage.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",

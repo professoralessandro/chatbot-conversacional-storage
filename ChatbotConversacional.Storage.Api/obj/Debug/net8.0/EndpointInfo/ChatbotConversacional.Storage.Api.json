@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "AppMktPlaceV2 Storage",
+    "title": "Chatbot Storage",
     "version": "v1"
   },
   "paths": {

@@ -1,19 +1,21 @@
 #region REFERENCES
-using ChatbotConversacionalStorage.Application.Helper.Static.Serilog;
+using ChatbotConversacionalStorage.Application.Helper.Settings;
 using ChatbotConversacionalStorage.Application.Helper.Static.Generic;
+using ChatbotConversacionalStorage.Application.Helper.Static.Serilog;
 using ChatbotConversacionalStorage.Application.Helper.Static.Settings;
 using ChatbotConversacionalStorage.Application.Helper.Static.Settings.Jtw;
+using ChatbotConversacionalStorage.Domain.Context.Postgre;
 using ChatbotConversacionalStorage.Infrastructure.Arquiteture.ServicesInjection;
 using ChatbotConversacionalStorage.Infrastructure.Mappers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using Serilog.Events;
+using System.Security.Cryptography;
 using System.Text;
-using ChatbotConversacionalStorage.Domain.Context.Postgre;
-using ChatbotConversacionalStorage.Application.Helper.Settings;
 #endregion REFERENCES
 
 #region TRY CATCH
@@ -140,6 +142,36 @@ try
     #endregion ENTITY FRAMEWORK
 
     #region JWT CONFIGURATION
+
+    var jwtKey = builder.Configuration["JwtConfig:Key"];
+    var jwtIssuer = builder.Configuration["JwtConfig:Issuer"];
+    var jwtAudience = builder.Configuration["JwtConfig:Audience"];
+
+    if (builder.Environment.IsDevelopment())
+    {
+        if (string.IsNullOrWhiteSpace(jwtKey) || Encoding.UTF8.GetByteCount(jwtKey) < 32)
+            jwtKey = Convert.ToBase64String(RandomNumberGenerator.GetBytes(64));
+        jwtIssuer ??= "ChatbotConversacional.Api";
+        jwtAudience ??= "ChatbotConversacional.Frontend";
+    }
+
+    if (string.IsNullOrWhiteSpace(jwtKey) || Encoding.UTF8.GetByteCount(jwtKey) < 32)
+    {
+        if (builder.Environment.IsEnvironment("Testing"))
+            jwtKey = Convert.ToBase64String(RandomNumberGenerator.GetBytes(64));
+        else
+            throw new InvalidOperationException("Jwt:Key deve conter pelo menos 32 bytes.");
+    }
+
+    if (string.IsNullOrWhiteSpace(jwtIssuer) || string.IsNullOrWhiteSpace(jwtAudience))
+        throw new InvalidOperationException("Jwt:Issuer e Jwt:Audience devem estar configurados.");
+
+    builder.Configuration["JwtConfig:Key"] = jwtKey;
+    builder.Configuration["JwtConfig:Issuer"] = jwtIssuer;
+    builder.Configuration["JwtConfig:Audience"] = jwtAudience;
+
+    var key = Encoding.UTF8.GetBytes(jwtKey);
+
     builder.Services.AddAuthentication(x =>
     {
         x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -151,12 +183,23 @@ try
         x.SaveToken = true;
         x.TokenValidationParameters = new TokenValidationParameters
         {
-            ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(JwtRuntimeConfig.Secret)),
-            ValidateAudience = false,
-            ValidateIssuer = false,
+            //ValidateIssuerSigningKey = true,
+            //IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(JwtRuntimeConfig.Secret)),
+            //ValidateAudience = false,
+            //ValidateIssuer = false,
+            //ValidateLifetime = true,
+            //ClockSkew = TimeSpan.Zero
+
+            ValidateIssuer = true,
+            ValidateAudience = true,
             ValidateLifetime = true,
-            ClockSkew = TimeSpan.Zero
+            ValidateIssuerSigningKey = true,
+
+            ValidIssuer = jwtIssuer,
+
+            ValidAudience = jwtAudience,
+
+            IssuerSigningKey = new SymmetricSecurityKey(key)
         };
     });
     #endregion JWT CONFIGURATION

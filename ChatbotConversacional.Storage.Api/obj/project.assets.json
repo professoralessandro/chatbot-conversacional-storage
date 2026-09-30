@@ -1765,22 +1765,6 @@
           }
         }
       },
-      "ChatbotConversacional.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "AutoMapper": "13.0.0",
-          "ChatbotConversacional.Storage.Domain": "1.0.0",
-          "Dapper": "2.1.35",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ChatbotConversacional.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ChatbotConversacional.Infrastructure.dll": {}
-        }
-      },
       "ChatbotConversacional.Storage.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1817,6 +1801,22 @@
         },
         "runtime": {
           "bin/placeholder/ChatbotConversacional.Storage.Domain.dll": {}
+        }
+      },
+      "ChatbotConversacional.Storage.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "13.0.0",
+          "ChatbotConversacional.Storage.Domain": "1.0.0",
+          "Dapper": "2.1.35",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ChatbotConversacional.Storage.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChatbotConversacional.Storage.Infrastructure.dll": {}
         }
       }
     }
@@ -5067,11 +5067,6 @@
         "version.txt"
       ]
     },
-    "ChatbotConversacional.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../ChatbotConversacional.Storage.Infrastructure/ChatbotConversacional.Infrastructure.csproj",
-      "msbuildProject": "../ChatbotConversacional.Storage.Infrastructure/ChatbotConversacional.Infrastructure.csproj"
-    },
     "ChatbotConversacional.Storage.Application/1.0.0": {
       "type": "project",
       "path": "../ChatbotConversacional.Storage.Application/ChatbotConversacional.Storage.Application.csproj",
@@ -5081,15 +5076,20 @@
       "type": "project",
       "path": "../ChatbotConversacional.Storage.Domain/ChatbotConversacional.Storage.Domain.csproj",
       "msbuildProject": "../ChatbotConversacional.Storage.Domain/ChatbotConversacional.Storage.Domain.csproj"
+    },
+    "ChatbotConversacional.Storage.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../ChatbotConversacional.Storage.Infrastructure/ChatbotConversacional.Storage.Infrastructure.csproj",
+      "msbuildProject": "../ChatbotConversacional.Storage.Infrastructure/ChatbotConversacional.Storage.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AntiXSS >= 4.3.0",
       "AutoMapper.Collection >= 10.0.0",
-      "ChatbotConversacional.Infrastructure >= 1.0.0",
       "ChatbotConversacional.Storage.Application >= 1.0.0",
       "ChatbotConversacional.Storage.Domain >= 1.0.0",
+      "ChatbotConversacional.Storage.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.9",
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.1.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.4",
@@ -5145,8 +5145,8 @@
             "C:\\Users\\profe\\source\\repos\\private\\chat-bot\\chatbot-conversacional-storage\\ChatbotConversacional.Storage.Domain\\ChatbotConversacional.Storage.Domain.csproj": {
               "projectPath": "C:\\Users\\profe\\source\\repos\\private\\chat-bot\\chatbot-conversacional-storage\\ChatbotConversacional.Storage.Domain\\ChatbotConversacional.Storage.Domain.csproj"
             },
-            "C:\\Users\\profe\\source\\repos\\private\\chat-bot\\chatbot-conversacional-storage\\ChatbotConversacional.Storage.Infrastructure\\ChatbotConversacional.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\profe\\source\\repos\\private\\chat-bot\\chatbot-conversacional-storage\\ChatbotConversacional.Storage.Infrastructure\\ChatbotConversacional.Infrastructure.csproj"
+            "C:\\Users\\profe\\source\\repos\\private\\chat-bot\\chatbot-conversacional-storage\\ChatbotConversacional.Storage.Infrastructure\\ChatbotConversacional.Storage.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\profe\\source\\repos\\private\\chat-bot\\chatbot-conversacional-storage\\ChatbotConversacional.Storage.Infrastructure\\ChatbotConversacional.Storage.Infrastructure.csproj"
             }
           }
         }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.10.12224.181 stable
+VisualStudioVersion = 18.10.12224.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotConversacional.Storage.Api", "ChatbotConversacional.Storage.Api\ChatbotConversacional.Storage.Api.csproj", "{A61D28CC-431E-4897-8C41-6698B01CC87B}"
 EndProject
@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotConversacional.Stora
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotConversacional.Storage.Domain", "ChatbotConversacional.Storage.Domain\ChatbotConversacional.Storage.Domain.csproj", "{1BD9101F-4490-4AC6-9469-F05FAF769D8E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotConversacional.Infrastructure", "ChatbotConversacional.Storage.Infrastructure\ChatbotConversacional.Infrastructure.csproj", "{F7D8BE26-181D-4D96-BCF1-708C838901E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotConversacional.Storage.Infrastructure", "ChatbotConversacional.Storage.Infrastructure\ChatbotConversacional.Storage.Infrastructure.csproj", "{F7D8BE26-181D-4D96-BCF1-708C838901E7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotConversacional.Storage.Test", "ChatbotConversacional.Storage.Test\ChatbotConversacional.Storage.Test.csproj", "{8705DF99-C5FB-4423-A14F-03E86C801D96}"
 EndProject

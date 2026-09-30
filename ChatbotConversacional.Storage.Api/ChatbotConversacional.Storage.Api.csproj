@@ -30,7 +30,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ChatbotConversacional.Storage.Application\ChatbotConversacional.Storage.Application.csproj" />
     <ProjectReference Include="..\ChatbotConversacional.Storage.Domain\ChatbotConversacional.Storage.Domain.csproj" />
-    <ProjectReference Include="..\ChatbotConversacional.Storage.Infrastructure\ChatbotConversacional.Infrastructure.csproj" />
+    <ProjectReference Include="..\ChatbotConversacional.Storage.Infrastructure\ChatbotConversacional.Storage.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
