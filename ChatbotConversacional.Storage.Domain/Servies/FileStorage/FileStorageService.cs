@@ -47,7 +47,7 @@ namespace ChatbotConversacionalStorage.Domain.Servies.FileStorage
                 #endregion SAVING IMAGE
 
                 Serilog.Log.Information("\nSaveImageAsync => Creating FileStorage into data base\n");
-                await _repository.AddAsync(model.TrasnformObjectPropValueToUpper());
+                await _repository.AddAsync(model);
 
                 return model;
             }
@@ -247,7 +247,7 @@ namespace ChatbotConversacionalStorage.Domain.Servies.FileStorage
             // CREATING DIRECTORY
             var uniqueFileName = FileHelper.GetUniqueFileName(Guid.NewGuid().ToString());
 
-            var uploads = Path.Combine(FileHelper.GetCurrentDirectoryPath(), "users", "posts", userId.ToString());
+            var uploads = Path.Combine(FileHelper.GetBaseDirectoryPath(), "users", "posts", userId.ToString());
 
             var filePath = Path.Combine(uploads, uniqueFileName);
 
@@ -258,7 +258,12 @@ namespace ChatbotConversacionalStorage.Domain.Servies.FileStorage
 
             filePath = string.Concat(filePath, FileHelper.GetFileTypeFromBase64(postRequest.ProfileImage)).Replace("image/", ".");
 
-            await file.CopyToAsync(new FileStream(filePath, FileMode.Create));
+            var fileStream = new FileStream(filePath, FileMode.Create);
+
+            await file.CopyToAsync(fileStream);
+
+            fileStream.Close();
+            fileStream.Dispose();
 
             return filePath;
         }

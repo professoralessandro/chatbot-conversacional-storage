@@ -1,4 +1,5 @@
 ﻿#region REFERENCE
+using ChatbotConversacionalStorage.Application.Helper.Static.Settings;
 using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
 #endregion REFERENCE
@@ -32,6 +33,12 @@ namespace ChatbotConversacionalStorage.Application.Helper.Static.File
         {
             // Obtém o diretório atual
             return Directory.GetCurrentDirectory();
+        }
+
+        public static string GetBaseDirectoryPath()
+        {
+            // Obtém o diretório base
+            return RumtimeSettings.BaseDirectoryWorkPath;
         }
 
         public static string RemoveIncorrectFolderAndReturnFilePath(string filePath, string filePathFromApi)

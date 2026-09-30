@@ -8,5 +8,6 @@
         public static string ConnectionString { get; set; }
         public static string ApiPolicy { get; set; }
         public static string ConnectionStringPostgre { get; set; }
+        public static string BaseDirectoryWorkPath { get; set; }
     }
 }
