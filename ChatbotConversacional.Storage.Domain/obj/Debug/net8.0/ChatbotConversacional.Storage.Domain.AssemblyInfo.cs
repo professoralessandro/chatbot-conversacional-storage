@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatbotConversacional.Storage.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbeb382640536c4b509ca66eee24b8bf3e8cca25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82a1bd2dc87d1ffdaf7267f8d9101b0ece04ac1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatbotConversacional.Storage.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatbotConversacional.Storage.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
